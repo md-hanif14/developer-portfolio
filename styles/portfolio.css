@@ -3,9 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 
 }
-.background{
+
+.background {
     background: #FFF8F3;
-    background-image:url('../images/header_bg.png'), url('../images/developer.png') ;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
     /* margin: 100px 0; */
@@ -25,6 +26,7 @@
     height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 nav {
@@ -59,7 +61,7 @@ nav li {
 
 .banner-title {
     font-weight: 700;
-font-size: 85px;
+    font-size: 85px;
 }
 
 .banner-subtitle {
@@ -68,36 +70,42 @@ font-size: 85px;
     margin-bottom: 20px;
 
 }
-.banner-description{
+
+.banner-description {
     font-weight: 400;
-font-size: 18px;
-color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
 }
+
 /* main section */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section style */
 section {
     margin-top: 130px;
-    }
-.about{
+}
+
+.about {
     text-align: center;
-    
+
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 
 }
+
 .section-title {
     text-align: center;
-   
+
     margin-bottom: 50px;
     font-size: 35px;
 
 }
+
 .section-description {
     color: #757575;
     font-size: 18px;
@@ -107,39 +115,46 @@ section {
 
 .about-info-container {
     display: flex;
-    justify-content: space-around;  /*side by side anar jonno*/
+    justify-content: space-around;
+    /*side by side anar jonno*/
 }
+
 .info-title {
     font-size: 20px;
     color: #757575;
 }
+
 .info-description {
     font-weight: 700;
-font-size: 20px;
-color: #474747;
+    font-size: 20px;
+    color: #474747;
 }
+
 /* what-i-do styles */
 
 .skills-container {
     display: flex;
     gap: 24px;
 }
+
 .skill {
     background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
+
 .skill-title {
     font-weight: 700;
-font-size: 20px;
-margin-top: 30px;
-margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
+
 .skill-description {
     font-weight: 400;
-font-size: 16px;
-color: #757575;
+    font-size: 16px;
+    color: #757575;
 }
 
 /* resume styles */
@@ -151,23 +166,53 @@ color: #757575;
 .resume .title {
     color: #474747;
     font-weight: 700;
-font-size: 25px;
-margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
+
 .resume .subtitle {
     color: #757575;
     font-weight: 600;
-font-size: 20px;
-margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
+
 .resume .description {
     color: #757575;
 }
+
 .resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .resume-butten {
     margin-top: 50px;
     text-align: center;
+}
+
+/* contract styles */
+.contract {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contract .section-title {
+    text-align: left;
+}
+
+.contract input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contract a {
+    text-decoration: none;
+
 }
